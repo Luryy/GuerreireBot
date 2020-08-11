@@ -1,0 +1,20 @@
+{
+  "name": "guerreirebot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -r dotenv/config index.js"
+  },
+  "dependencies": {
+    "knex": "^0.21.2",
+    "mysql": "^2.18.1",
+    "node-emoji": "^1.10.0",
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
